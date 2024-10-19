@@ -128,10 +128,10 @@
           gameForm.form.classList.add('hidden');
         })
       }
-      if((digitPairs <= 3)) {
+      if((digitPairs < 3)) {
         alert('Слишком мало пар!');
       }
-      if((digitPairs >= 10)) {
+      if((digitPairs > 10)) {
         alert('Слишком много пар!');
       };
       gameForm.input.value = '';
